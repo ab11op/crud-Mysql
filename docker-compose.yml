@@ -1,0 +1,9 @@
+version: "2"
+services:
+  postgres:
+    image: postgres
+    environment:
+  POSTGRESS_USER : postgres
+  POSTGRESS_PASSWORD : postgress
+ports:
+- "5432:5432"
